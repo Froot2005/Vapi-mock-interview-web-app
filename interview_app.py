@@ -10,8 +10,8 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 # Use environment variables for sensitive data
-SHARE_KEY = os.environ.get("VAPI_SHARE_KEY", "edeeca07-1e75-4e0e-9dd2-483557c843ed")
-ASSISTANT_ID = os.environ.get("VAPI_ASSISTANT_ID", "2adaf889-b0ec-45fe-b2b3-aaaffcaf65d5")
+SHARE_KEY = VAPI_SHARE_KEY
+ASSISTANT_ID = VAPI_ASSISTANT_ID
 VAPI_BASE_URL = "https://api.vapi.ai"
 
 INTERVIEW_PAGE = f"""
