@@ -9,7 +9,7 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-# Use environment variables for sensitive data
+# replace with your Vapi public api key and Vapi assistant ID
 SHARE_KEY = VAPI_SHARE_KEY
 ASSISTANT_ID = VAPI_ASSISTANT_ID
 VAPI_BASE_URL = "https://api.vapi.ai"
